@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+
+}
+.carousel-inner {
+    max-height: 39rem;
+}
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+}
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: #2e86fa74;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 2px solid #FC7E00;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(197, 224, 255);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(197, 224, 255);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #09d135;
+}
+
+input[type="reset"]:hover{
+    background: #049a049a;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
